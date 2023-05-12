@@ -32,9 +32,10 @@ This shows how to use JWT with Flask.
 
 = inside factory
 
-## Issues
+## Blueprints added
 
-After leaving the code for a while, returning found that the app was no longer working, unlike previously. From POSTMAN, I got the message 'The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.'  I could see via pgAdmin that the server was indeed running so I will need to troubleshoot the code.
+Blueprints were used to put everything inside the directory server.
+Inside of the original app.py the app is in the directory 'server'.
 
 ## References
 
@@ -47,4 +48,6 @@ After leaving the code for a while, returning found that the app was no longer w
   - brew services start postgresql
 - stop
   - brew services stop postgresql
-  - 
+
+[video ong pg](https://www.youtube.com/watch?v=Q8iYj2ypWss)
+
