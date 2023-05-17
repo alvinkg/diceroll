@@ -2,7 +2,7 @@ from flask import Flask
 import os
 from dotenv import load_dotenv
 
-# import blueprints obj
+# import blueprints objects
 from api.routes import api
 from auth.routes import auth
 from extensions import jwt, db
