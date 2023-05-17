@@ -36,18 +36,9 @@ This shows how to use JWT with Flask.
 
 Blueprints were used to put everything inside the directory server.
 Inside of the original app.py the app is in the directory 'server'.
+Also __init__.py files had to be added to make python packages.
 
 ## References
 
 [video](https://www.youtube.com/watch?v=pAOAhZNlGK8)
-
-### On Posgres dB
-
-- postgresql is deprecated -> postgresql@14
-- start
-  - brew services start postgresql
-- stop
-  - brew services stop postgresql
-
-[video ong pg](https://www.youtube.com/watch?v=Q8iYj2ypWss)
-
+[On blueprints](https://exploreflask.com/en/latest/blueprints.html)
